@@ -1,0 +1,6 @@
+num1 = 24
+num2 = 2.5
+D = num1 / num2
+print(D)
+R= num1 % num2
+print(R)
