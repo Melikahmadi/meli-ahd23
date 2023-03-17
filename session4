@@ -1,0 +1,21 @@
+name1 = input("say your name:")
+age1 = input("your age:")
+name2 = input("say your name:")
+age2 = input("your age:")
+name3 = input("say your name:")
+age3 = input("your age:")
+mydict = {
+    "name1" : "age1",
+    "name2" : "age2",
+    "name3" : "age3"
+}
+if mydict["name1"] > mydict["name2"]:
+    if mydict["name1"] > mydict["name3"]:
+        print(name1)
+    elif mydict["name3"] > mydict["name1"]:
+        print(name3)
+elif mydict["name2"] > mydict["name1"]:
+    if mydict["name2"] > mydict["name3"]:
+        print(name2)
+    elif mydict["name3"] > mydict["name2"]:
+        print(name3)
